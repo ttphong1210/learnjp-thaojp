@@ -1,11 +1,11 @@
 import { Fragment } from "react";
-import { Col, DatePicker } from "antd";
-import { Text } from "./components/text";
+import MasterLayout from "@layouts/masterLayout";
+import Home from "@pages/home";
 
 const App = () => {
   return (
     <Fragment>
-      <div
+      {/* <div
         style={{
           display: "flex",
           justifyContent: "center",
@@ -17,7 +17,9 @@ const App = () => {
           <Text title="Hello AsurRaa" />
           <DatePicker />
         </div>
-      </div>
+      </div> */}
+      {/* <MasterLayout/> */}
+      <Home></Home>
     </Fragment>
   );
 };

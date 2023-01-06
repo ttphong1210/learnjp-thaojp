@@ -18,6 +18,11 @@
     "noEmit": true,
     "jsx": "react-jsx",
     "baseUrl": ".",
-    "types": ["vitest/globals"]
+    "types": ["vitest/globals"],
+    "paths": {
+      "@layouts/*":["./src/layouts/*"],
+      "@mockdata/*":["./src/mockdata*"],
+      "@pages/*":["./src/pages/*"],
+    }
   }
 }

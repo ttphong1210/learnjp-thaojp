@@ -1,3 +1,36 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.ant-layout-header{
+    @apply px-5 flex items-center
+}
+.ant-layout-header ul{
+    @apply bg-white
+}
+.ant-layout-header .search {
+    @apply leading-[31px] bg-white border-solid border border-black p-0 px-2.5 rounded-xl
+}
+.search input.ant-input{
+    @apply outline-white outline-0
+}
+.search .ant-input-group-addon button{
+    @apply border-none
+}
+.ant-row{
+    @apply flex
+}
+/* .title-menu h2{
+    @apply font-medium
+} */
+.title-courses .title h2{
+    @apply text-xl font-medium mx-1.5 my-2.5
+}
+
+/* HOME */
+.btn-location{
+    @apply rounded-[5px]
+}
+.icon-location{
+    @apply mr-[7px]
+}
